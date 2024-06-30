@@ -1,0 +1,67 @@
+/* Reset and Box-Sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Background */
+.bg-dark {
+    background-color: #75767B;
+    color: #FFFFFF; /* Adding text color for better readability */
+    font-family: Arial, sans-serif; /* Adding a font for better typography */
+}
+
+/* Margin */
+.mt-50 {
+    margin-top: 50px;
+}
+
+/* Canvas */
+#canvas {
+    border: 2px solid black;
+    border-radius: 8px; /* Adding border radius for smoother edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding subtle shadow for depth */
+}
+
+/* Additional Enhancements */
+/* Adding some padding to the body for better spacing */
+body {
+    padding: 20px;
+    background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+/* Adding styles for headers */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Adding styles for paragraphs */
+p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Adding a button style */
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
